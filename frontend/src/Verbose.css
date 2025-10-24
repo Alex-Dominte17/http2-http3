@@ -1,0 +1,43 @@
+.curl-verbose-output {
+    background: #181818;
+    color: #eee;
+    border-radius: 8px;
+    padding: 18px;
+    font-family: 'Fira Mono', 'Consolas', monospace;
+    font-size: 14px;
+    overflow-x: auto;
+    margin-bottom: 16px;
+  }
+  
+  .curl-protocol {
+    color: #90caf9;
+    font-weight: bold;
+    margin-bottom: 4px;
+  }
+  
+  .curl-tls {
+    color: #b39ddb;
+  }
+  
+  .curl-tls-step {
+    color: #80cbc4;
+  }
+  
+  .curl-request {
+    color: #c3e88d;
+    margin-left: 14px;
+  }
+  
+  .curl-response {
+    color: #ff8a65;
+    margin-left: 14px;
+  }
+  
+  .curl-info {
+    color: #888;
+  }
+  
+  .curl-other {
+    color: #eee;
+  }
+  
