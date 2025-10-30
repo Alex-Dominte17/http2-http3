@@ -1,2 +1,0 @@
-tcp handshake, tls handshake
-quic 1 handshake, impreuna
