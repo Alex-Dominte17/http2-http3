@@ -1,5 +1,7 @@
 https://cloudflare-quic.com - URL pentru aplicatia web folosita in demo
 
+https://jagt.github.io/clumsy/
+
 curl --http2 -s -v -D - -w "\\nTIME:%{time_total}\\nCONNECT:%{time_connect}\\nTLS:%{time_appconnect}\\nTTFB:%{time_starttransfer}\\n" "${url}"
 
 curl --http3 -s -v -D - -w "\\nTIME:%{time_total}\\nCONNECT:%{time_connect}\\nTLS:%{time_appconnect}\\nTTFB:%{time_starttransfer}\\n" "${url}"
@@ -15,4 +17,7 @@ curl --http3 -s -v -D - -w "\\nTIME:%{time_total}\\nCONNECT:%{time_connect}\\nTL
 <img width="938" height="985" alt="image" src="https://github.com/user-attachments/assets/21640959-3df8-4c87-b459-b7772d5646a6" />
 
 <img width="831" height="910" alt="image" src="https://github.com/user-attachments/assets/009e8855-3c6d-4b51-809d-2ab31bf7c0dc" />
+
+<img width="880" height="571" alt="image" src="https://github.com/user-attachments/assets/93d6bdd9-71d4-43e4-8595-6f18bc97d997" />
+
 
