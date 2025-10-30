@@ -1,5 +1,7 @@
 https://cloudflare-quic.com - URL pentru aplicatia web folosita in demo
 
+curl --http2 -s -v -D - -w "\\nTIME:%{time_total}\\nCONNECT:%{time_connect}\\nTLS:%{time_appconnect}\\nTTFB:%{time_starttransfer}\\n" "${url}"
+
 curl --http3 -s -v -D - -w "\\nTIME:%{time_total}\\nCONNECT:%{time_connect}\\nTLS:%{time_appconnect}\\nTTFB:%{time_starttransfer}\\n" "${url}"
 
 <img width="395" height="221" alt="image" src="https://github.com/user-attachments/assets/d445cf39-6f73-4891-9e51-4068d684b333" />
