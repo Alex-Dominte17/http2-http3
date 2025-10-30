@@ -1,6 +1,6 @@
 https://cloudflare-quic.com - URL pentru aplicatia web folosita in demo
 
-https://jagt.github.io/clumsy/
+https://jagt.github.io/clumsy/ - tool pentru manipularea pachetelor de date
 
 curl --http2 -s -v -D - -w "\\nTIME:%{time_total}\\nCONNECT:%{time_connect}\\nTLS:%{time_appconnect}\\nTTFB:%{time_starttransfer}\\n" "${url}"
 
